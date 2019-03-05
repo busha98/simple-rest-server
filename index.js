@@ -25,7 +25,7 @@ app.all('/', function (req, res) {
   console.dir(req.body)
   const { event } = req.body
 
-  event.aliases = event.aliases && event.aliases.toString()
+  if (event) { event.aliases = event.aliases && event.aliases.toString() }
 
   bigquery
   .dataset(datasetId)
