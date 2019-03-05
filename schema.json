@@ -1,0 +1,62 @@
+[
+  {
+    "name": "type",
+    "type": "string"
+  },
+  {
+    "name": "id",
+    "type": "string"
+  },
+  {
+    "name": "event_timestamp_ms",
+    "type": "numeric"
+  },
+  {
+    "name": "app_user_id",
+    "type": "string"
+  },
+  {
+    "name": "aliases",
+    "type": "string"
+  },
+  {
+    "name": "product_id",
+    "type": "string"
+  },
+  {
+    "name": "entitlement_id",
+    "type": "string"
+  },
+  {
+    "name": "period_type",
+    "type": "string"
+  },
+  {
+    "name": "purchased_at_ms",
+    "type": "numeric"
+  },
+  {
+    "name": "expiration_at_ms",
+    "type": "numeric"
+  },
+  {
+    "name": "store",
+    "type": "string"
+  },
+  {
+    "name": "environment",
+    "type": "string"
+  },
+  {
+    "name": "is_trial_conversion",
+    "type": "boolean"
+  },
+  {
+    "name": "cancel_reason",
+    "type": "string"
+  },
+  {
+    "name": "new_product_id",
+    "type": "string"
+  }
+]
