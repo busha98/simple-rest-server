@@ -38,7 +38,9 @@ app.all('/', function (req, res) {
   })
 })
 
-app.listen(PORT)
+app.listen(PORT, () => {
+  console.log(`started on port ${PORT}`)
+})
 
 // CREATE TABLE
 // bigquery.dataset(datasetId).createTable(tableId, {schema}).then(console.log).catch(console.log)
