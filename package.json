@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "docker build --tag=server .",
+    "docker-start": "docker run -p 3000:3000 server"
   },
   "author": "",
   "license": "ISC",
