@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "docker build --tag=server .",
-    "docker-start": "docker run -p 3000:3000 server"
+    "docker-start": "docker run -p 3000:3000 -v $(pwd)/logger.log:/app/logger.log server"
   },
   "author": "",
   "license": "ISC",

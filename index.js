@@ -27,6 +27,8 @@ app.all('/', function (req, res) {
 
   if (event) { event.aliases = event.aliases && event.aliases.toString() }
 
+  logger.info('event:', event)
+
   bigquery
   .dataset(datasetId)
   .table(tableId)
