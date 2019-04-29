@@ -10,6 +10,7 @@
     "@google-cloud/bigquery": "^2.0.6",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "log4js": "^4.0.2"
+    "log4js": "^4.0.2",
+    "pm2": "^3.3.1"
   }
 }
